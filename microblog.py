@@ -1,1 +1,1 @@
-from app import asdfghj
+from app import app
