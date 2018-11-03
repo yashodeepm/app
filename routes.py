@@ -1,7 +1,7 @@
 from flask import render_template
 from app import app
-import requests
-requests.get("https://127.0.0.1:5000")
+import subprocess
+subprocess.call(['python','test.py'])
 @app.route('/')
 @app.route('/index')
 def index():
