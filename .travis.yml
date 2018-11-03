@@ -6,5 +6,6 @@ python:
 install:
   - pip install flask
 script:
-  - python microblog.py
+  - export FLASK_APP=microblog.py
+  - flask run
 sudo: false
