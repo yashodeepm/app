@@ -1,2 +1,10 @@
 language: python
-sudo: enabled
+python:
+  -"3.4"
+  -"3.5"
+  -"3.6"
+install:
+  - pip install flask
+script:
+  - python microblog.py
+sudo: false
